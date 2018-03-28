@@ -1,0 +1,197 @@
+Script started on Tue 25 Nov 2014 12:50:00 AM PST
+]0;lopez349@empress:~/HWPrograms/forHW7[lopez349@empress forHW7]$ g++ llist.cpp stack.cpp hw3p3.o dgraph.cpp client.cpp
+]0;lopez349@empress:~/HWPrograms/forHW7[lopez349@empress forHW7]$ ./a.out
+A
+2
+0
+0
+[B]
+[F]
+===================
+B
+2
+0
+0
+[C]
+[G]
+===================
+C
+1
+0
+0
+[H]
+===================
+E
+0
+0
+0
+[ empty ]
+===================
+F
+2
+0
+0
+[I]
+[E]
+===================
+G
+0
+0
+0
+[ empty ]
+===================
+H
+2
+0
+0
+[G]
+[I]
+===================
+I
+3
+0
+0
+[A]
+[G]
+[E]
+===================
+A
+Calling the llist destructor
+===Stack===
+B
+F
+B
+visited B
+Calling the llist destructor
+===Stack===
+C
+G
+F
+C
+visited C
+Calling the llist destructor
+===Stack===
+H
+G
+F
+H
+visited H
+Calling the llist destructor
+===Stack===
+G
+I
+G
+F
+G
+visited G
+Calling the llist destructor
+===Stack===
+I
+G
+F
+I
+visited I
+Calling the llist destructor
+===Stack===
+A
+G
+E
+G
+F
+Skipping A
+Skipping G
+E
+visited E
+Calling the llist destructor
+===Stack===
+G
+F
+Skipping G
+F
+visited F
+Calling the llist destructor
+===Stack===
+I
+E
+Skipping I
+Skipping E
+A
+2
+1
+1
+[B]
+[F]
+===================
+B
+2
+1
+2
+[C]
+[G]
+===================
+C
+1
+1
+3
+[H]
+===================
+E
+0
+1
+7
+[ empty ]
+===================
+F
+2
+1
+8
+[I]
+[E]
+===================
+G
+0
+1
+5
+[ empty ]
+===================
+H
+2
+1
+4
+[G]
+[I]
+===================
+I
+3
+1
+6
+[A]
+[G]
+[E]
+===================
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+Calling the llist destructor
+]0;lopez349@empress:~/HWPrograms/forHW7[lopez349@empress forHW7]$ exit
+exit
+
+Script done on Tue 25 Nov 2014 12:50:54 AM PST
